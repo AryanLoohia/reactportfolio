@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&family=Preahvihear&family=Quicksand:wght@300&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@700&family=Titillium+Web:wght@200&display=swap');
+
+.container3{
+    background-color: black;
+    font-family: Preahvihear ;
+    
+    overflow-x: hidden;
+    display:flex;
+    flex-direction: column;
+}
+
+.title2{
+    width:100vw;
+    color:white;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:50px;
+    justify-content: center;
+}
+
+
+
+.aboutcon{
+  color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* .aboutcon section{
+      width:100vw;
+      margin-bottom: 50px;
+      display: inline-block;
+  
+  } */
+  
+  
+  
+  
+  
+  .aboutcon article{
+        
+      width:25vw;
+      color:white;
+      align-items: center;
+      justify-content: center;
+      display:inline-block;
+      border: 2px dotted black;
+      padding:20px;
+      margin:40px;
+     
+   
+     
+
+      transition: all 200ms;
+  }
+  
+  
+  .aboutcon article:hover{
+      padding:25px;
+      background:rgb(0,0,100);
+      color:black important;
+      border:5px solid royalblue;
+  }
+  
+  
+
+  .edu{
+    background-image: url("edu.jpeg");
+    height:190px;
+    display: inline-block;
+      width:100%;
+      align-self: center;
+      background-size: cover;
+      border-radius:50px;
+      border:3px solid royalblue;
+      
+
+  }
+  .intern{
+    background-image: url("build.jpeg");
+    height:190px;
+      width:100%;
+      display: inline-block;
+      align-self: center;
+      background-size: cover;
+      border-radius:50px;
+      border:3px solid royalblue;
+      
+
+  }
+  .skills{
+    background-image: url("skill3.png");
+    height:190px;
+      width:100%;
+      align-self: center;
+      background-size: cover;
+      display: inline-block;
+      border-radius:50px;
+      border:3px solid royalblue;
+      
+
+  }
+
+  .achieve{
+    background-image: url("achieve.jpeg");
+    height:190px;
+      width:100%;
+      align-self: center;
+      background-size: cover;
+      display: inline-block;
+      border-radius:50px;
+      border:3px solid royalblue;
+      
+
+  }
+  .extrac{
+    background-image: url("sport.webp");
+    height:190px;
+      width:100%;
+      align-self: center;
+      background-size: cover;
+      display: inline-block;
+      border-radius:50px;
+      border:3px solid royalblue;
+      
+
+  }
+
+
+  .aboutcon2{
+   display:flex;
+   flex-direction: row;
+   color:white;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+    
+  }
+
+  .aboutcon2 article{
+   
+    width:25vw;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    border: 2px dotted black;
+    padding:20px;
+    margin:40px;
+   
+ 
+   
+
+    transition: all 200ms;
+
+  }
+  .aboutcon2 article:hover{
+    padding:25px;
+    background:rgb(0,0,100);
+    color:black;
+    border:5px solid royalblue;
+}
+
+@media screen and (max-width:1000px){
+
+  .aboutcon{
+    display:flex;
+    flex-direction: column;
+  }
+  .aboutcon2{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .aboutcon article{
+        
+    width:80vw;
+    
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    border: 2px dotted black;
+    padding:20px;
+    margin:40px;
+   
+ 
+   
+
+    transition: all 200ms;
+}
+
+
+.aboutcon article:hover{
+    padding:25px;
+    background:rgb(0,0,100);
+    color:black;
+    border:5px solid royalblue;
+}
+
+
+
+.edu{
+  background-image: url("edu.jpeg");
+  height:190px;
+  display: inline-block;
+    width:100%;
+    align-self: center;
+    background-size: cover;
+    border-radius:50px;
+    border:3px solid royalblue;
+    
+
+}
+.intern{
+  background-image: url("build.jpeg");
+  height:190px;
+    width:100%;
+    display: inline-block;
+    align-self: center;
+    background-size: cover;
+    border-radius:50px;
+    border:3px solid royalblue;
+    
+
+}
+.skills{
+  background-image: url("skill3.png");
+  height:190px;
+    width:100%;
+    align-self: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius:50px;
+    border:3px solid royalblue;
+    
+
+}
+
+.achieve{
+
+  width:80vw;
+  background-image: url("achieve.jpeg");
+  height:190px;
+    width:100%;
+    align-self: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius:50px;
+    border:3px solid royalblue;
+    
+
+}
+.extrac{
+
+  width:80vw;
+  background-image: url("sport.webp");
+  height:190px;
+    width:100%;
+    align-self: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius:50px;
+    border:3px solid royalblue;
+    
+
+}
+
+
+
+.aboutcon2 article{
+ 
+  width:80vw;
+    
+  align-items: center;
+  justify-content: center;
+  display:inline-block;
+  border: 2px dotted black;
+  padding:20px;
+  margin:40px;
+ 
+
+ 
+
+  transition: all 200ms;
+
+}
+.aboutcon2 article:hover{
+  padding:25px;
+  background:rgb(0,0,100);
+  color:black;
+  border:5px solid royalblue;
+}
+
+}

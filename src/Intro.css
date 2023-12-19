@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&family=Preahvihear&family=Quicksand:wght@300&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@700&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&family=Preahvihear&family=Quicksand:wght@300;400&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@700&family=Titillium+Web:wght@200&display=swap');
+.container{
+    overflow-y: hidden;
+    background:black;
+    font-family: Quicksand;
+    color:white;
+    height:900px;
+    overflow-x: hidden;
+    width:100vw;
+    display:flex;
+    padding-top:40px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.profileimg{
+    height:400px;
+    width:300px;
+    background-image: url("profilepic.png");
+    border-radius: 20% 30%;
+    z-index:10px;
+    transition: .5s;
+    margin-left:60px;
+    margin-right:30px;
+   
+}
+
+.introtxt{
+  overflow-y: hidden;
+
+  margin-left:20px;
+}
+.profileimg:hover{
+        padding:10px;                                                       
+}
+
+#hi{
+    font-size:90px;
+    padding:10px;
+    margin:0px 0px;
+    z-index:10px;}
+  
+  
+  #name{
+    font-size:100px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    font-weight: bold;
+    z-index:10px;
+    color:royalblue;
+  }
+  
+  
+  #info{
+    margin-top:10px;
+    font-size: 20px;
+    z-index:10px;
+    font-size: 30px;
+  }
+
+
+  .n1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+
+@media screen and (max-width:1000px) {
+
+
+    .container{
+        padding-top: 100px;
+        overflow-y: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .profileimg{
+        height:400px;
+        width:50vw;
+        border-radius: 100%;
+        display: none;
+       
+        
+ }
+
+ .profileimg:hover{
+}
+
+
+.introtxt{
+    width:80vw;
+    display: inline-block;
+    overflow-y: hidden;
+
+}
+
+
+
+
+  }

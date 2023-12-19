@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Pixelify+Sans&family=Preahvihear&family=Quicksand:wght@300&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@700&family=Titillium+Web:wght@200&display=swap');
+
+.container2{
+   background:black;
+   font-family: Preahvihear;
+   overflow-x: hidden;
+   color:white;
+}
+
+
+.title{
+    width:100vw;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:50px;
+}
+  
+
+.conp{
+    display:flex;
+    margin-top:60px;
+    border-top: black solid 4px;
+}
+
+.p1{
+    height:600px;
+    width:50vw;
+    border-right: black solid 4px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+   
+}
+
+.p2{
+    height:600px;
+    width:50vw;
+   padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.img1{
+    background-image: url("kgp_edit.png");
+    height:400px;
+    background-size:100% 430px ;
+    background-repeat: no-repeat;
+    border: darkblue 10px solid;
+    border-radius: 5%;
+ 
+}
+
+.img2{
+    background-image: url("htmla.jpeg");
+    height:400px;
+    background-size:100% 200 px;
+    border: darkblue 10px solid;
+    border-radius: 5%;
+}
+
+
+
+.button {
+  z-index:0;
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: url("introimg.jpeg");
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 20%;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: .1s;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-position: -20px -20px;
+  padding:30px;
+  font-weight: bolder;
+  
+}
+
+.button:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  size:30px;
+}
+
+
+
+.button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:40%;
+}
+
+@media screen and (max-width:1000px){
+  .container2{
+    display: flex;
+    flex-direction: column;
+  }
+.conp{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  .p1{
+    width:90vw;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img1{
+    width:80vw;
+    height:400px;
+    
+    }
+
+  .p2{
+    width:90vw;
+    display:inline-block;
+    background-position: center;
+    justify-content: center;
+    align-items: center top;
+  }
+
+
+
+}
+
