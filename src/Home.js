@@ -24,7 +24,7 @@ function Home() {
       </BrowserRouter>
       
       <BrowserRouter> 
-      
+      <Nav></Nav>
       <Intro></Intro>
       <Portfolio></Portfolio>
       <About></About>
